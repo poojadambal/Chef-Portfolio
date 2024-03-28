@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Portfolio</title>
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            background-image: url('back.jpg'); /* Add the path to your background image */
+            background-size: cover;
+            
+            color: #333;
+        }
+
+        header {
+            
+            background-color: #242323;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            color: #dcc3c3;
+        }
+         h2, h3 {
+            color: #333;
+        }
+
+        .recipe {
+            margin-bottom: 20px;
+        }
+
+        .recipe img {
+            max-width: 40%;
+            height: auto;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #eee;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #E44D26; /* Change to your preferred color */
+        }
+
+        #about {
+            margin-bottom: 50px;
+        }
+
+        #about img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        }
+
+        #about p {
+            text-align: justify;
+        }
+
+        #achievements {
+            margin-bottom: 30px;
+        }
+
+        #achievements h2 {
+            color: #01010d; /* Change to your preferred color */
+        }
+
+        #achievements p {
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .rating label {
+            margin-right: 10px;
+        }
+
+        .star {
+            color: #030107; /* Change to your preferred color */
+            font-size: 20px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>HELLO ITS GREAT TO SEE YOU HERE!   WELCOME TO MY PORTFOLIO</p>
+        <h1>IAM CHEF SRUJUNA</h1>
+        
+    </header>
+
+    <section id="about">
+        <h2>WHO AM I</h2>
+        <img src="chef.jpg" alt="Your Profile Picture" width="165">
+        <p>
+            Welcome to my cooking portfolio! I'm passionate about creating delicious and visually appealing dishes. With years of experience in the culinary arts,
+            I strive to bring a unique blend of flavors to every recipe. Explore my portfolio to discover a world of culinary delights.
+        </p>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Here are some of my notable achievements in the culinary world:</p>
+        <p>1. Winner of the National Chef's Competition 2022</p>
+        <p>2. Featured Chef on "Cooking Delights" TV Show</p>
+        <p>3. Published author of the cookbook "Gourmet Creations"</p>
+    </section>
+
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe">
+            <img src="gobi.jpg" alt="Delicious Dish 1">
+            <h3>GOBI MANCHURIAN</h3>
+            <p>Gobi Manchurian is a popular Indo Chinese appetizer made with cauliflower, corn flour, soya sauce, vinegar, chilli sauce, ginger & garlic.</p>
+        </div>
+        <div class="recipe">
+            <img src="vegbiryani.jpg" alt="Mouthwatering Dessert 2">
+            <h3>DELICIOUS VEG BIRYANI</h3>
+            <p>This veg biryani recipe is the traditional way of making biryani in a pot, sealed with dough and slow-cooked. </p>
+        </div>
+        <div class="recipe">
+            <img src="roti.jpg" alt="Delicious Dish 1">
+            <h3>BUTTER NAAN WITH PANEER CURRY</h3>
+            <p>Paneer Butter Masala is a classic Indian dish with a creamy tomato-based sauce and luscious cubes of paneer dunked in it. This lightly spiced curry is easy to make and a crowd-pleaser, so go ahead and make it for a weeknight dinner or for your next get-together. </p>
+        </div>
+        <div class="recipe">
+            <img src="pani.jpg" alt="Delicious Dish 1">
+            <h3>PANI PURI</h3>
+            <p>One of the most popular Indian street foods  Pani Puri is a fried crispy puri filled with lip-smacking potato masala and loaded with flavorful water! Whether you are an adult or a child, you will never get tired of eating this. It is seriously addictive!</p>
+        </div>
+
+        <div class="recipe">
+            <img src="mixedice.jpg" alt="Mouthwatering Dessert 2">
+            <h3>COOL MIXED ICE CREAM</h3>
+            <p>Ice cream is a delicious dessert that can be enjoyed in many different ways. It can be eaten by itself, as part of a sundae, or with cake. There are many kinds of ice cream, such as chocolate chip cookie dough ice cream, strawberry shortcake etc. Ice cream is one of the most commonly loved desserts on this planet </p>
+        </div>
+        <div class="recipe">
+            <img src="pastery.jpg" alt="Mouthwatering Dessert 2">
+            <h3>PINEAPPLE PASTERY CAKE</h3>
+            <p>A vanilla slice, also known as a custard square, is a type of pastry.It consists of a thick custard, which is traditionally flavoured with vanilla or chocolate, and which is sandwiched between flaky puff pastry or filo pastry and iced with either vanilla, chocolate, strawberry, raspberry or passion fruit icing. </p>
+        </div>
+        <!-- Add more recipes as needed -->
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Food Gallery: Other Food Items</h2>
+        <img src="salad.jpg" alt="Food Image 1"width="400" height="600">
+        <img src="finger.jpg" alt="Food Image 2" width="500" height="400">
+        <img src="curd.jpg" alt="Food Image 3"width="400" height="400">
+        <img src="pizza.jpg" alt="Food Image 3"width="500" height="600">
+        <img src="orange.jpg" alt="Food Image 3"width="500" height="300">
+        <img src="girmit.jpg" alt="Food Image 3"width="600" height="600">
+        <!-- Add more images to the gallery -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="rating">Rating:</label>
+            <div class="rating">
+                <label for="star1" class="star">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star2" class="star">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star3" class="star">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star4" class="star">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star5" class="star">&#9733;</label>
+                <input type="radio" id="star5" name="rating" value="5">
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </section>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+        <!-- Add more social media links as needed -->
+    </div>
+
+    <script>
+        function submitForm() {
+            // You can add logic here to handle form submission, for example, sending an email or saving to a database.
+            alert("Form submitted!");
+        }
+    </script>
+</body>
+</html>
